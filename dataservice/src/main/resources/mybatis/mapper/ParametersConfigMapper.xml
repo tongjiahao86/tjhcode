@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tjhnode.dataservice.mapper.ParametersConfigMapper">
+    <select id="getParamConfigList" resultType="com.tjhnode.dataservice.model.entities.ParametersConfig">
+        select KeyId,ParameterName,ParameterKey from of_parametersconfig where OFID=#{ofid}
+    </select>
+    <insert id="insertParamConfig">
+        insert into of_parametersconfig(KeyId,ParameterName,ParameterKey,OFId) values(#{KeyId},#{ParameterName},#{ParameterKey},#{OFId})
+    </insert>
+    <delete id="deleteParamConfigById">
+        delete from of_parametersconfig where KeyId=#{KeyId}
+    </delete>
+    <delete id="deleteParamConfigByOFId">
+        delete from of_parametersconfig where OFId=#{ofid}
+    </delete>
+</mapper>

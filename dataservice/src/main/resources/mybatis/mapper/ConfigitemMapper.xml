@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tjhnode.dataservice.mapper.ConfigItemMapper">
+    <select id="getConfigItemDetail" resultType="com.tjhnode.dataservice.model.entities.ConfigItemModel">
+        select OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where OFID=#{ofid};
+    </select>
+    <insert id="insertConfigItem">
+        insert into of_configitem(OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark,CreateDate,ClassificationId)
+            values(#{OFID},#{OFName},#{OFDescription},#{OFError},#{OFType},#{RequestType},#{SortCode},#{EnabledMark},#{CreateDate},#{ClassificationId})
+    </insert>
+    <update id="updateConfigItem">
+        update of_configitem set OFID=#{OFID},OFName=#{OFName},OFDescription=#{OFDescription},OFError=#{OFError},OFType=#{OFType},RequestType=#{RequestType},SortCode=#{SortCode},EnabledMark=#{EnabledMark},CreateDate=LOCALTIME() where OFID=#{ofid}
+    </update>
+    <delete id="deleteConfigItem">
+        delete from of_configitem where KeyId=#{keyId}
+    </delete>
+</mapper>

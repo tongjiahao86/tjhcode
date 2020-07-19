@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tjhnode.dataservice.mapper.EnumParameterMapper">
+    <select id="getEnumParameterList" resultType="com.tjhnode.dataservice.model.entities.Enumparameters">
+    select KeyId,ParameterName,ParameterKey,Description,SortCode,CreateDate from enumparameters
+    </select>
+    <insert id="insertEnumParameter">
+        insert into enumparameters(KeyId,ParameterName,ParameterKey,Description,SortCode,CreateDate)
+        values(#{KeyId},#{ParameterName},#{ParameterKey},#{Description},#{SortCode},LOCALTIME())
+    </insert>
+    <update id="updateEnumParameter">
+        update enumparameters set ParameterName=#{ParameterName},ParameterKey=#{ParameterKey},Description=#{Description}
+        ,SortCode=#{SortCode},ModifyDate=LOCALTIME() where KeyId=#{KeyId}
+    </update>
+    <delete id="deleteEnumParameter">
+        delete from enumparameters where KeyId=#{KeyId}
+    </delete>
+    <select id="getParameterDetail" resultType="com.tjhnode.dataservice.model.entities.Enumparameters">
+        select ParameterName,ParameterKey,Description,SortCode,CreateDate from enumparameters where KeyId=#{KeyId}
+    </select>
+</mapper>

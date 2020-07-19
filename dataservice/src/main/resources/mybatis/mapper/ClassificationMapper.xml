@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tjhnode.dataservice.mapper.ClassificationMapper">
+    <select id="findAll" resultType="com.tjhnode.dataservice.model.entities.ClassificationModel">
+        select ClassificationId,ParentId,ClassificationName,SortCode from of_classification;
+    </select>
+
+    <insert id="InsertClassification">
+        insert into of_classification(ClassificationId,ParentId,ClassificationName,SortCode,DeleteMark,CreateDate) values(#{ClassificationId},#{ParentId},#{ClassificationName},#{SortCode},#{DeleteMark},#{CreateDate});
+    </insert>
+
+    <update id="UpdateClassification">
+        update of_classification set ClassificationName=#{ClassificationName},SortCode=#{SortCode},DeleteMark=#{DeleteMark},ModifyDate=#{ModifyDate} where ClassificationId=#{ClassificationId}
+    </update>
+
+    <delete id="DeleteClassification">
+        delete from of_classification where ClassificationId=#{ClassificationId}
+    </delete>
+
+    <select id="ClassificationDetail" resultType="com.tjhnode.dataservice.model.entities.ClassificationModel">
+        select ClassificationId,ParentId,ClassificationName,SortCode from of_classification where ClassificationId=#{ClassificationId};
+    </select>
+    <select id="GetChildsList" resultType="string">
+        select ClassificationId from of_classification where ParentId=#{parentId}
+    </select>
+</mapper>
