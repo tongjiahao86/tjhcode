@@ -14,8 +14,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
@@ -48,6 +46,7 @@ public class SysPermissionController {
     public JSONResult getMenuCatalog(@PathVariable("userid") String userid ){
         List<MenuCatalog> catalogList=new ArrayList<>();
         try {
+            //111
             catalogList=permissionService.selectMenuByUserId(userid);
         } catch (Exception e) {
             errorCode=ErrorCodeManager.GetCode("25001");
