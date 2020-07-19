@@ -1,0 +1,177 @@
+2020-01-04 00:16:48.571 [Thread-26] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-01-04 00:16:48.580 [Thread-26] [DynamicRoutingDataSource.java:182] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - closing dynamicDatasource  ing.... 
+2020-01-04 00:16:48.606 [Thread-26] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed 
+2020-01-04 00:16:48.611 [Thread-26] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed 
+2020-01-04 00:16:48.615 [Thread-26] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2020-01-04 00:16:48.620 [Thread-26] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed 
+2020-01-04 12:31:02.042 [main] [StartupInfoLogger.java:50] INFO  com.tjhnode.DataserviceApplication - Starting DataserviceApplication on tjh with PID 5296 (D:\JavaProject\dataservice\target\classes started by My in D:\JavaProject\dataservice) 
+2020-01-04 12:31:02.084 [main] [SpringApplication.java:675] INFO  com.tjhnode.DataserviceApplication - No active profile set, falling back to default profiles: default 
+2020-01-04 12:31:04.921 [main] [RepositoryConfigurationDelegate.java:244] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2020-01-04 12:31:04.926 [main] [RepositoryConfigurationDelegate.java:126] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2020-01-04 12:31:04.972 [main] [RepositoryConfigurationDelegate.java:182] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces. 
+2020-01-04 12:31:05.810 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5be66e9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 12:31:05.944 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 12:31:05.947 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$c574df6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 12:31:05.956 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 12:31:05.980 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 12:31:06.724 [main] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2020-01-04 12:31:06.745 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-81"] 
+2020-01-04 12:31:06.753 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2020-01-04 12:31:06.755 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2020-01-04 12:31:06.763 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5]. 
+2020-01-04 12:31:06.763 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+2020-01-04 12:31:06.764 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+2020-01-04 12:31:07.839 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018] 
+2020-01-04 12:31:08.025 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2020-01-04 12:31:08.025 [main] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5835 ms 
+2020-01-04 12:31:08.311 [main] [DynamicDataSourceCreator.java:113] INFO  com.baomidou.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置 
+2020-01-04 12:31:10.486 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited 
+2020-01-04 12:31:10.566 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,appconfig} inited 
+2020-01-04 12:31:10.633 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3,applog} inited 
+2020-01-04 12:31:10.699 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4,app} inited 
+2020-01-04 12:31:10.700 [main] [DynamicRoutingDataSource.java:203] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 4 个数据源 
+2020-01-04 12:31:10.700 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 appconfig 成功 
+2020-01-04 12:31:10.700 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 app 成功 
+2020-01-04 12:31:10.700 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功 
+2020-01-04 12:31:10.701 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 applog 成功 
+2020-01-04 12:31:10.701 [main] [DynamicRoutingDataSource.java:212] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 appconfig 
+2020-01-04 12:31:11.141 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ClassificationModel. 
+2020-01-04 12:31:11.188 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ConfigItemModel. 
+2020-01-04 12:31:11.226 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.Enumparameters. 
+2020-01-04 12:31:11.259 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ParametersConfig. 
+2020-01-04 12:31:11.293 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.SqlConfigModel. 
+2020-01-04 12:31:14.060 [main] [AbstractApplicationContext.java:557] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authorizationServerConfiguration': Unsatisfied dependency expressed through field 'authenticationService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'oracle.net.ano.AuthenticationService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)} 
+2020-01-04 12:31:14.060 [main] [DynamicRoutingDataSource.java:182] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - closing dynamicDatasource  ing.... 
+2020-01-04 12:31:14.083 [main] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed 
+2020-01-04 12:31:14.086 [main] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed 
+2020-01-04 12:31:14.088 [main] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2020-01-04 12:31:14.090 [main] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed 
+2020-01-04 12:31:14.098 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat] 
+2020-01-04 12:31:14.122 [main] [ConditionEvaluationReportLoggingListener.java:142] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2020-01-04 12:31:14.481 [main] [LoggingFailureAnalysisReporter.java:42] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationService in com.tjhnode.outh.config.AuthorizationServerConfiguration required a bean of type 'oracle.net.ano.AuthenticationService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'oracle.net.ano.AuthenticationService' in your configuration.
+ 
+2020-01-04 13:09:19.749 [main] [StartupInfoLogger.java:50] INFO  com.tjhnode.DataserviceApplication - Starting DataserviceApplication on tjh with PID 4000 (D:\JavaProject\dataservice\target\classes started by My in D:\JavaProject\dataservice) 
+2020-01-04 13:09:19.759 [main] [SpringApplication.java:675] INFO  com.tjhnode.DataserviceApplication - No active profile set, falling back to default profiles: default 
+2020-01-04 13:09:20.823 [main] [RepositoryConfigurationDelegate.java:244] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2020-01-04 13:09:20.830 [main] [RepositoryConfigurationDelegate.java:126] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2020-01-04 13:09:20.869 [main] [RepositoryConfigurationDelegate.java:182] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces. 
+2020-01-04 13:09:21.238 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e600ddac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 13:09:21.295 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 13:09:21.297 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4f8f4e7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 13:09:21.304 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 13:09:21.309 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 13:09:21.701 [main] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2020-01-04 13:09:21.714 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-81"] 
+2020-01-04 13:09:21.722 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2020-01-04 13:09:21.723 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2020-01-04 13:09:21.730 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5]. 
+2020-01-04 13:09:21.730 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+2020-01-04 13:09:21.730 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+2020-01-04 13:09:22.802 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018] 
+2020-01-04 13:09:22.933 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2020-01-04 13:09:22.934 [main] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3089 ms 
+2020-01-04 13:09:23.079 [main] [DynamicDataSourceCreator.java:113] INFO  com.baomidou.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置 
+2020-01-04 13:09:24.921 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited 
+2020-01-04 13:09:24.981 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,appconfig} inited 
+2020-01-04 13:09:25.030 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3,applog} inited 
+2020-01-04 13:09:25.099 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4,app} inited 
+2020-01-04 13:09:25.099 [main] [DynamicRoutingDataSource.java:203] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 4 个数据源 
+2020-01-04 13:09:25.100 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 appconfig 成功 
+2020-01-04 13:09:25.100 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 app 成功 
+2020-01-04 13:09:25.100 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功 
+2020-01-04 13:09:25.100 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 applog 成功 
+2020-01-04 13:09:25.101 [main] [DynamicRoutingDataSource.java:212] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 appconfig 
+2020-01-04 13:09:25.386 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ClassificationModel. 
+2020-01-04 13:09:25.449 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ConfigItemModel. 
+2020-01-04 13:09:25.487 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.Enumparameters. 
+2020-01-04 13:09:25.520 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ParametersConfig. 
+2020-01-04 13:09:25.550 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.SqlConfigModel. 
+2020-01-04 13:09:29.088 [main] [PropertySourcedRequestMappingHandlerMapping.java:69] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] 
+2020-01-04 13:09:29.499 [main] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-01-04 13:09:31.367 [main] [DocumentationPluginsBootstrapper.java:147] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed 
+2020-01-04 13:09:31.445 [main] [DocumentationPluginsBootstrapper.java:150] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+2020-01-04 13:09:31.558 [main] [ApiListingReferenceScanner.java:41] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references 
+2020-01-04 13:09:32.017 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteConfigItemUsingPOST_1 
+2020-01-04 13:09:32.027 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertConfigItemUsingPOST_1 
+2020-01-04 13:09:32.029 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateConfigItemUsingPOST_1 
+2020-01-04 13:09:32.087 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-81"] 
+2020-01-04 13:09:32.161 [main] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '' 
+2020-01-04 13:09:32.172 [main] [StartupInfoLogger.java:59] INFO  com.tjhnode.DataserviceApplication - Started DataserviceApplication in 12.789 seconds (JVM running for 16.192) 
+2020-01-04 13:09:41.677 [http-nio-81-exec-1] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-01-04 13:09:41.677 [http-nio-81-exec-1] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2020-01-04 13:09:41.694 [http-nio-81-exec-1] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms 
+2020-01-04 13:16:18.258 [http-nio-81-exec-7] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported] 
+2020-01-04 18:24:05.654 [Thread-26] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2020-01-04 18:24:05.656 [Thread-26] [DynamicRoutingDataSource.java:182] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - closing dynamicDatasource  ing.... 
+2020-01-04 18:24:05.677 [Thread-26] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed 
+2020-01-04 18:24:05.682 [Thread-26] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed 
+2020-01-04 18:24:05.687 [Thread-26] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2020-01-04 18:24:05.692 [Thread-26] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed 
+2020-01-04 18:24:38.177 [main] [StartupInfoLogger.java:50] INFO  com.tjhnode.DataserviceApplication - Starting DataserviceApplication on tjh with PID 3324 (D:\JavaProject\dataservice\target\classes started by My in D:\JavaProject\dataservice) 
+2020-01-04 18:24:38.186 [main] [SpringApplication.java:675] INFO  com.tjhnode.DataserviceApplication - No active profile set, falling back to default profiles: default 
+2020-01-04 18:24:39.359 [main] [RepositoryConfigurationDelegate.java:244] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2020-01-04 18:24:39.364 [main] [RepositoryConfigurationDelegate.java:126] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2020-01-04 18:24:39.401 [main] [RepositoryConfigurationDelegate.java:182] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces. 
+2020-01-04 18:24:39.768 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e5a27b42] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 18:24:39.822 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 18:24:39.824 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4f30ec13] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 18:24:39.831 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 18:24:39.836 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2020-01-04 18:24:40.351 [main] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2020-01-04 18:24:40.368 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-81"] 
+2020-01-04 18:24:40.377 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2020-01-04 18:24:40.378 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2020-01-04 18:24:40.385 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5]. 
+2020-01-04 18:24:40.386 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+2020-01-04 18:24:40.386 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+2020-01-04 18:24:41.436 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018] 
+2020-01-04 18:24:41.587 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2020-01-04 18:24:41.587 [main] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3279 ms 
+2020-01-04 18:24:41.736 [main] [DynamicDataSourceCreator.java:113] INFO  com.baomidou.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置 
+2020-01-04 18:24:43.780 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited 
+2020-01-04 18:24:43.851 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,appconfig} inited 
+2020-01-04 18:24:43.921 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3,applog} inited 
+2020-01-04 18:24:43.977 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4,app} inited 
+2020-01-04 18:24:43.978 [main] [DynamicRoutingDataSource.java:203] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 4 个数据源 
+2020-01-04 18:24:43.978 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 appconfig 成功 
+2020-01-04 18:24:43.978 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 app 成功 
+2020-01-04 18:24:43.979 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功 
+2020-01-04 18:24:43.979 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 applog 成功 
+2020-01-04 18:24:43.979 [main] [DynamicRoutingDataSource.java:212] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 appconfig 
+2020-01-04 18:24:44.277 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ClassificationModel. 
+2020-01-04 18:24:44.352 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ConfigItemModel. 
+2020-01-04 18:24:44.393 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.Enumparameters. 
+2020-01-04 18:24:44.428 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ParametersConfig. 
+2020-01-04 18:24:44.461 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.SqlConfigModel. 
+2020-01-04 18:24:47.729 [main] [PropertySourcedRequestMappingHandlerMapping.java:69] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] 
+2020-01-04 18:24:48.044 [main] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2020-01-04 18:24:49.282 [main] [DocumentationPluginsBootstrapper.java:147] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed 
+2020-01-04 18:24:49.324 [main] [DocumentationPluginsBootstrapper.java:150] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+2020-01-04 18:24:49.446 [main] [ApiListingReferenceScanner.java:41] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references 
+2020-01-04 18:24:49.849 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteConfigItemUsingPOST_1 
+2020-01-04 18:24:49.860 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertConfigItemUsingPOST_1 
+2020-01-04 18:24:49.862 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateConfigItemUsingPOST_1 
+2020-01-04 18:24:49.904 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-81"] 
+2020-01-04 18:24:49.979 [main] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '' 
+2020-01-04 18:24:49.989 [main] [StartupInfoLogger.java:59] INFO  com.tjhnode.DataserviceApplication - Started DataserviceApplication in 12.366 seconds (JVM running for 15.42) 
+2020-01-04 18:24:50.294 [http-nio-81-exec-1] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2020-01-04 18:24:50.295 [http-nio-81-exec-1] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2020-01-04 18:24:50.310 [http-nio-81-exec-1] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms 

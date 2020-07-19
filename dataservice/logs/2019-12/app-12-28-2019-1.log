@@ -1,0 +1,1022 @@
+2019-12-28 16:06:17.991 [main] [StartupInfoLogger.java:50] INFO  com.tjhnode.DataserviceApplication - Starting DataserviceApplication on tjh with PID 9572 (D:\JavaProject\dataservice\target\classes started by My in D:\JavaProject\dataservice) 
+2019-12-28 16:06:18.046 [main] [SpringApplication.java:675] INFO  com.tjhnode.DataserviceApplication - No active profile set, falling back to default profiles: default 
+2019-12-28 16:06:20.526 [main] [RepositoryConfigurationDelegate.java:244] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-12-28 16:06:20.530 [main] [RepositoryConfigurationDelegate.java:126] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-12-28 16:06:20.578 [main] [RepositoryConfigurationDelegate.java:182] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces. 
+2019-12-28 16:06:21.017 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d581b8e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 16:06:21.102 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 16:06:21.105 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3f1029b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 16:06:21.111 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 16:06:21.136 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 16:06:21.753 [main] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-12-28 16:06:21.769 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-81"] 
+2019-12-28 16:06:21.778 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-12-28 16:06:21.779 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019-12-28 16:06:21.786 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5]. 
+2019-12-28 16:06:21.786 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+2019-12-28 16:06:21.786 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+2019-12-28 16:06:22.875 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018] 
+2019-12-28 16:06:23.106 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-12-28 16:06:23.106 [main] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4939 ms 
+2019-12-28 16:06:25.024 [main] [DynamicDataSourceCreator.java:113] INFO  com.baomidou.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置 
+2019-12-28 16:06:27.413 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited 
+2019-12-28 16:06:27.493 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,appconfig} inited 
+2019-12-28 16:06:27.570 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3,applog} inited 
+2019-12-28 16:06:27.633 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4,app} inited 
+2019-12-28 16:06:27.634 [main] [DynamicRoutingDataSource.java:203] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 4 个数据源 
+2019-12-28 16:06:27.634 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 appconfig 成功 
+2019-12-28 16:06:27.634 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 app 成功 
+2019-12-28 16:06:27.635 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功 
+2019-12-28 16:06:27.635 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 applog 成功 
+2019-12-28 16:06:27.635 [main] [DynamicRoutingDataSource.java:212] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 appconfig 
+2019-12-28 16:06:28.076 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ClassificationModel. 
+2019-12-28 16:06:28.120 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ConfigItemModel. 
+2019-12-28 16:06:28.159 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.Enumparameters. 
+2019-12-28 16:06:28.196 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ParametersConfig. 
+2019-12-28 16:06:28.233 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.SqlConfigModel. 
+2019-12-28 16:06:29.157 [main] [PropertySourcedRequestMappingHandlerMapping.java:69] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] 
+2019-12-28 16:06:29.449 [main] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-12-28 16:06:30.636 [main] [DocumentationPluginsBootstrapper.java:147] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed 
+2019-12-28 16:06:30.683 [main] [DocumentationPluginsBootstrapper.java:150] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+2019-12-28 16:06:30.793 [main] [ApiListingReferenceScanner.java:41] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references 
+2019-12-28 16:06:31.076 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteConfigItemUsingPOST_1 
+2019-12-28 16:06:31.079 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getConfigItemDetailUsingGET_1 
+2019-12-28 16:06:31.087 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertConfigItemUsingPOST_1 
+2019-12-28 16:06:31.090 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateConfigItemUsingPOST_1 
+2019-12-28 16:06:31.120 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-81"] 
+2019-12-28 16:06:31.147 [main] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '' 
+2019-12-28 16:06:31.152 [main] [StartupInfoLogger.java:59] INFO  com.tjhnode.DataserviceApplication - Started DataserviceApplication in 14.016 seconds (JVM running for 21.161) 
+2019-12-28 16:07:34.522 [http-nio-81-exec-2] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-12-28 16:07:34.522 [http-nio-81-exec-2] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-12-28 16:07:34.531 [http-nio-81-exec-2] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms 
+2019-12-28 16:09:33.622 [http-nio-81-exec-1] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.tjhnode.dataservice.model.vo.QueryPaginationModel["querylist"])] 
+2019-12-28 16:13:19.659 [http-nio-81-exec-10] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.tjhnode.dataservice.model.vo.QueryPaginationModel["querylist"])] 
+2019-12-28 16:19:35.456 [http-nio-81-exec-7] [Slf4jLogFilter.java:149] ERROR druid.sql.Statement - {conn-110003, stmt-120032} execute error. select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2831) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:527) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:221) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidPooledStatement.executeQuery(DruidPooledStatement.java:291) [druid-1.1.10.jar:1.1.10]
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:439) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:490) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl.getConfigList(ConfigItemServiceImpl.java:57) [classes/:?]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$FastClassBySpringCGLIB$$cf8aaeb5.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationInterceptor.invoke(DynamicDataSourceAnnotationInterceptor.java:52) [dynamic-datasource-spring-boot-starter-2.5.4.jar:2.5.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$EnhancerBySpringCGLIB$$aa15eea7.getConfigList(<generated>) [classes/:?]
+	at com.tjhnode.dataservice.controller.ConfigItemController.getConfigList(ConfigItemController.java:47) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:84) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.ProductionSecurityFilter.doFilter(ProductionSecurityFilter.java:53) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+2019-12-28 16:19:35.861 [http-nio-81-exec-7] [ConfigItemController.java:52] INFO  com.tjhnode.dataservice.controller.ConfigItemController - 时间：2019-12-28T16:19:35.861, Package: com.tjhnode.dataservice.controller.ConfigItemController, 方法名：getConfigList, 错误信息：StatementCallback; bad SQL grammar [select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10]; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1 
+ 
+2019-12-28 16:19:46.046 [http-nio-81-exec-5] [Slf4jLogFilter.java:149] ERROR druid.sql.Statement - {conn-110003, stmt-120033} execute error. select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2831) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:527) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:221) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidPooledStatement.executeQuery(DruidPooledStatement.java:291) [druid-1.1.10.jar:1.1.10]
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:439) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:490) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl.getConfigList(ConfigItemServiceImpl.java:57) [classes/:?]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$FastClassBySpringCGLIB$$cf8aaeb5.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationInterceptor.invoke(DynamicDataSourceAnnotationInterceptor.java:52) [dynamic-datasource-spring-boot-starter-2.5.4.jar:2.5.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$EnhancerBySpringCGLIB$$aa15eea7.getConfigList(<generated>) [classes/:?]
+	at com.tjhnode.dataservice.controller.ConfigItemController.getConfigList(ConfigItemController.java:47) [classes/:?]
+	at sun.reflect.GeneratedMethodAccessor201.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:84) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.ProductionSecurityFilter.doFilter(ProductionSecurityFilter.java:53) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+2019-12-28 16:19:46.054 [http-nio-81-exec-5] [ConfigItemController.java:52] INFO  com.tjhnode.dataservice.controller.ConfigItemController - 时间：2019-12-28T16:19:46.054, Package: com.tjhnode.dataservice.controller.ConfigItemController, 方法名：getConfigList, 错误信息：StatementCallback; bad SQL grammar [select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10]; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1 
+ 
+2019-12-28 16:21:12.885 [http-nio-81-exec-6] [Slf4jLogFilter.java:149] ERROR druid.sql.Statement - {conn-110003, stmt-120034} execute error. select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2831) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:527) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:221) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidPooledStatement.executeQuery(DruidPooledStatement.java:291) [druid-1.1.10.jar:1.1.10]
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:439) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:490) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl.getConfigList(ConfigItemServiceImpl.java:57) [classes/:?]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$FastClassBySpringCGLIB$$cf8aaeb5.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationInterceptor.invoke(DynamicDataSourceAnnotationInterceptor.java:52) [dynamic-datasource-spring-boot-starter-2.5.4.jar:2.5.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$EnhancerBySpringCGLIB$$aa15eea7.getConfigList(<generated>) [classes/:?]
+	at com.tjhnode.dataservice.controller.ConfigItemController.getConfigList(ConfigItemController.java:47) [classes/:?]
+	at sun.reflect.GeneratedMethodAccessor201.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:84) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.ProductionSecurityFilter.doFilter(ProductionSecurityFilter.java:53) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+2019-12-28 16:21:28.149 [http-nio-81-exec-6] [ConfigItemController.java:52] INFO  com.tjhnode.dataservice.controller.ConfigItemController - 时间：2019-12-28T16:21:28.149, Package: com.tjhnode.dataservice.controller.ConfigItemController, 方法名：getConfigList, 错误信息：StatementCallback; bad SQL grammar [select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10]; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1 
+ 
+2019-12-28 16:28:26.935 [http-nio-81-exec-8] [Slf4jLogFilter.java:149] ERROR druid.sql.Statement - {conn-110003, stmt-120037} execute error. select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2831) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:527) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:221) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidPooledStatement.executeQuery(DruidPooledStatement.java:291) [druid-1.1.10.jar:1.1.10]
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:439) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:490) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl.getConfigList(ConfigItemServiceImpl.java:57) [classes/:?]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$FastClassBySpringCGLIB$$cf8aaeb5.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationInterceptor.invoke(DynamicDataSourceAnnotationInterceptor.java:52) [dynamic-datasource-spring-boot-starter-2.5.4.jar:2.5.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$EnhancerBySpringCGLIB$$aa15eea7.getConfigList(<generated>) [classes/:?]
+	at com.tjhnode.dataservice.controller.ConfigItemController.getConfigList(ConfigItemController.java:47) [classes/:?]
+	at sun.reflect.GeneratedMethodAccessor201.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:84) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.ProductionSecurityFilter.doFilter(ProductionSecurityFilter.java:53) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+2019-12-28 16:28:26.939 [http-nio-81-exec-8] [ConfigItemController.java:52] INFO  com.tjhnode.dataservice.controller.ConfigItemController - 时间：2019-12-28T16:28:26.939, Package: com.tjhnode.dataservice.controller.ConfigItemController, 方法名：getConfigList, 错误信息：StatementCallback; bad SQL grammar [select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10]; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1 
+ 
+2019-12-28 16:31:40.839 [http-nio-81-exec-7] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.tjhnode.dataservice.model.vo.QueryPaginationModel["querylist"])] 
+2019-12-28 16:33:37.798 [http-nio-81-exec-1] [ConfigItemController.java:52] INFO  com.tjhnode.dataservice.controller.ConfigItemController - 时间：2019-12-28T16:33:37.797, Package: com.tjhnode.dataservice.controller.ConfigItemController, 方法名：getConfigList, 错误信息：StatementCallback; uncategorized SQLException for SQL [select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and  like '%%' limit 1,10]; SQL state [null]; error code [0]; sql injection violation, syntax error: ERROR. pos 172, line 1, column 167, token LIKE : select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and  like '%%' limit 1,10; nested exception is java.sql.SQLException: sql injection violation, syntax error: ERROR. pos 172, line 1, column 167, token LIKE : select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and  like '%%' limit 1,10 
+ 
+2019-12-28 16:37:40.367 [http-nio-81-exec-10] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.tjhnode.dataservice.model.vo.QueryPaginationModel["querylist"])] 
+2019-12-28 16:39:46.263 [http-nio-81-exec-9] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.tjhnode.dataservice.model.vo.QueryPaginationModel["querylist"])] 
+2019-12-28 16:40:26.506 [http-nio-81-exec-10] [ConfigItemController.java:52] INFO  com.tjhnode.dataservice.controller.ConfigItemController - 时间：2019-12-28T16:40:26.506, Package: com.tjhnode.dataservice.controller.ConfigItemController, 方法名：getConfigList, 错误信息：StatementCallback; uncategorized SQLException for SQL [select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and  like '%%' limit 1,10]; SQL state [null]; error code [0]; sql injection violation, syntax error: ERROR. pos 172, line 1, column 167, token LIKE : select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and  like '%%' limit 1,10; nested exception is java.sql.SQLException: sql injection violation, syntax error: ERROR. pos 172, line 1, column 167, token LIKE : select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and  like '%%' limit 1,10 
+ 
+2019-12-28 16:43:11.741 [http-nio-81-exec-3] [Slf4jLogFilter.java:149] ERROR druid.sql.Statement - {conn-110002, stmt-120059} execute error. select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2831) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:527) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:221) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidPooledStatement.executeQuery(DruidPooledStatement.java:291) [druid-1.1.10.jar:1.1.10]
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:439) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:490) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl.getConfigList(ConfigItemServiceImpl.java:57) [classes/:?]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$FastClassBySpringCGLIB$$cf8aaeb5.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationInterceptor.invoke(DynamicDataSourceAnnotationInterceptor.java:52) [dynamic-datasource-spring-boot-starter-2.5.4.jar:2.5.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$EnhancerBySpringCGLIB$$aa15eea7.getConfigList(<generated>) [classes/:?]
+	at com.tjhnode.dataservice.controller.ConfigItemController.getConfigList(ConfigItemController.java:47) [classes/:?]
+	at sun.reflect.GeneratedMethodAccessor201.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:84) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.ProductionSecurityFilter.doFilter(ProductionSecurityFilter.java:53) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+2019-12-28 16:43:11.756 [http-nio-81-exec-3] [ConfigItemController.java:52] INFO  com.tjhnode.dataservice.controller.ConfigItemController - 时间：2019-12-28T16:43:11.756, Package: com.tjhnode.dataservice.controller.ConfigItemController, 方法名：getConfigList, 错误信息：StatementCallback; bad SQL grammar [select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10]; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1 
+ 
+2019-12-28 16:44:52.082 [http-nio-81-exec-5] [Slf4jLogFilter.java:149] ERROR druid.sql.Statement - {conn-110002, stmt-120062} execute error. select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200) ~[mysql-connector-java-8.0.17.jar:8.0.17]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2831) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) ~[druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:527) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2503) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:302) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2828) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:221) [druid-1.1.10.jar:1.1.10]
+	at com.alibaba.druid.pool.DruidPooledStatement.executeQuery(DruidPooledStatement.java:291) [druid-1.1.10.jar:1.1.10]
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:439) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:376) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:452) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:462) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:490) [spring-jdbc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl.getConfigList(ConfigItemServiceImpl.java:57) [classes/:?]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$FastClassBySpringCGLIB$$cf8aaeb5.invoke(<generated>) [classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationInterceptor.invoke(DynamicDataSourceAnnotationInterceptor.java:52) [dynamic-datasource-spring-boot-starter-2.5.4.jar:2.5.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) [spring-aop-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at com.tjhnode.dataservice.service.impl.ConfigItemServiceImpl$$EnhancerBySpringCGLIB$$aa15eea7.getConfigList(<generated>) [classes/:?]
+	at com.tjhnode.dataservice.controller.ConfigItemController.getConfigList(ConfigItemController.java:47) [classes/:?]
+	at sun.reflect.GeneratedMethodAccessor201.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:84) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.github.xiaoymin.swaggerbootstrapui.filter.ProductionSecurityFilter.doFilter(ProductionSecurityFilter.java:53) [swagger-bootstrap-ui-1.9.3.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) [druid-1.1.10.jar:1.1.10]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+2019-12-28 16:44:52.097 [http-nio-81-exec-5] [ConfigItemController.java:52] INFO  com.tjhnode.dataservice.controller.ConfigItemController - 时间：2019-12-28T16:44:52.096, Package: com.tjhnode.dataservice.controller.ConfigItemController, 方法名：getConfigList, 错误信息：StatementCallback; bad SQL grammar [select OFID,OFName,OFDescription,OFError,OFType,RequestType,SortCode,EnabledMark from of_configitem where ClassificationId='de307b56-b35e-4a10-89eb-c7774c059b94'  and key like '%%' and value like '%%' limit 1,10]; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'key like '%%' and value like '%%' limit 1,10' at line 1 
+ 
+2019-12-28 16:46:37.845 [http-nio-81-exec-9] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.tjhnode.dataservice.model.vo.QueryPaginationModel["querylist"])] 
+2019-12-28 16:48:11.248 [http-nio-81-exec-8] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.tjhnode.dataservice.model.vo.QueryPaginationModel["querylist"])] 
+2019-12-28 17:05:54.854 [Thread-27] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-12-28 17:05:54.856 [Thread-27] [DynamicRoutingDataSource.java:182] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - closing dynamicDatasource  ing.... 
+2019-12-28 17:05:54.878 [Thread-27] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed 
+2019-12-28 17:05:54.885 [Thread-27] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed 
+2019-12-28 17:05:54.892 [Thread-27] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2019-12-28 17:05:54.899 [Thread-27] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed 
+2019-12-28 17:11:49.081 [main] [StartupInfoLogger.java:50] INFO  com.tjhnode.DataserviceApplication - Starting DataserviceApplication on tjh with PID 6916 (D:\JavaProject\dataservice\target\classes started by My in D:\JavaProject\dataservice) 
+2019-12-28 17:11:49.087 [main] [SpringApplication.java:675] INFO  com.tjhnode.DataserviceApplication - No active profile set, falling back to default profiles: default 
+2019-12-28 17:11:50.196 [main] [RepositoryConfigurationDelegate.java:244] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-12-28 17:11:50.200 [main] [RepositoryConfigurationDelegate.java:126] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-12-28 17:11:50.238 [main] [RepositoryConfigurationDelegate.java:182] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces. 
+2019-12-28 17:11:50.573 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73124a3b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:11:50.626 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:11:50.628 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$dca0bb0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:11:50.633 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:11:50.639 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:11:51.165 [main] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-12-28 17:11:51.181 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-81"] 
+2019-12-28 17:11:51.189 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-12-28 17:11:51.190 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019-12-28 17:11:51.197 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5]. 
+2019-12-28 17:11:51.197 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+2019-12-28 17:11:51.197 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+2019-12-28 17:11:52.253 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018] 
+2019-12-28 17:11:52.395 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-12-28 17:11:52.396 [main] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3222 ms 
+2019-12-28 17:11:53.303 [main] [DynamicDataSourceCreator.java:113] INFO  com.baomidou.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置 
+2019-12-28 17:11:54.977 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited 
+2019-12-28 17:11:55.037 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,appconfig} inited 
+2019-12-28 17:11:55.085 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3,applog} inited 
+2019-12-28 17:11:55.142 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4,app} inited 
+2019-12-28 17:11:55.142 [main] [DynamicRoutingDataSource.java:203] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 4 个数据源 
+2019-12-28 17:11:55.142 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 appconfig 成功 
+2019-12-28 17:11:55.143 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 app 成功 
+2019-12-28 17:11:55.143 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功 
+2019-12-28 17:11:55.143 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 applog 成功 
+2019-12-28 17:11:55.143 [main] [DynamicRoutingDataSource.java:212] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 appconfig 
+2019-12-28 17:11:55.425 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ClassificationModel. 
+2019-12-28 17:11:55.470 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ConfigItemModel. 
+2019-12-28 17:11:55.530 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.Enumparameters. 
+2019-12-28 17:11:55.561 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ParametersConfig. 
+2019-12-28 17:11:55.592 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.SqlConfigModel. 
+2019-12-28 17:11:56.215 [main] [PropertySourcedRequestMappingHandlerMapping.java:69] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] 
+2019-12-28 17:11:56.376 [main] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-12-28 17:11:57.009 [main] [DocumentationPluginsBootstrapper.java:147] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed 
+2019-12-28 17:11:57.026 [main] [DocumentationPluginsBootstrapper.java:150] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+2019-12-28 17:11:57.102 [main] [ApiListingReferenceScanner.java:41] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references 
+2019-12-28 17:11:57.287 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteConfigItemUsingPOST_1 
+2019-12-28 17:11:57.289 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getConfigItemDetailUsingGET_1 
+2019-12-28 17:11:57.297 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertConfigItemUsingPOST_1 
+2019-12-28 17:11:57.299 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateConfigItemUsingPOST_1 
+2019-12-28 17:11:57.316 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-81"] 
+2019-12-28 17:11:57.340 [main] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '' 
+2019-12-28 17:11:57.343 [main] [StartupInfoLogger.java:59] INFO  com.tjhnode.DataserviceApplication - Started DataserviceApplication in 8.663 seconds (JVM running for 13.005) 
+2019-12-28 17:12:05.496 [http-nio-81-exec-1] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-12-28 17:12:05.496 [http-nio-81-exec-1] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-12-28 17:12:05.504 [http-nio-81-exec-1] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms 
+2019-12-28 17:31:21.330 [http-nio-81-exec-2] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.tjhnode.common.vo.JSONResult com.tjhnode.dataservice.controller.ConfigItemController.insertConfigItem(com.tjhnode.dataservice.model.entities.ConfigItemModel)]
+2019-12-28 17:33:57.644 [http-nio-81-exec-4] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.tjhnode.common.vo.JSONResult com.tjhnode.dataservice.controller.ConfigItemController.insertConfigItem(com.tjhnode.dataservice.model.entities.ConfigItemModel)]
+2019-12-28 17:34:30.281 [http-nio-81-exec-7] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.tjhnode.common.vo.JSONResult com.tjhnode.dataservice.controller.ConfigItemController.insertConfigItem(com.tjhnode.dataservice.model.entities.ConfigItemModel)]
+2019-12-28 17:36:25.108 [http-nio-81-exec-10] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `int` from String "d": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String "d": not a valid Integer value
+ at [Source: (PushbackInputStream); line: 1, column: 74] (through reference chain: com.tjhnode.dataservice.model.entities.ConfigItemModel["SortCode"])] 
+2019-12-28 17:46:54.115 [Thread-15] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-12-28 17:46:54.117 [Thread-15] [DynamicRoutingDataSource.java:182] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - closing dynamicDatasource  ing.... 
+2019-12-28 17:46:54.152 [Thread-15] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed 
+2019-12-28 17:46:54.158 [Thread-15] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed 
+2019-12-28 17:46:54.166 [Thread-15] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2019-12-28 17:46:54.173 [Thread-15] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed 
+2019-12-28 17:47:07.226 [main] [StartupInfoLogger.java:50] INFO  com.tjhnode.DataserviceApplication - Starting DataserviceApplication on tjh with PID 11724 (D:\JavaProject\dataservice\target\classes started by My in D:\JavaProject\dataservice) 
+2019-12-28 17:47:07.235 [main] [SpringApplication.java:675] INFO  com.tjhnode.DataserviceApplication - No active profile set, falling back to default profiles: default 
+2019-12-28 17:47:08.423 [main] [RepositoryConfigurationDelegate.java:244] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-12-28 17:47:08.428 [main] [RepositoryConfigurationDelegate.java:126] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-12-28 17:47:08.469 [main] [RepositoryConfigurationDelegate.java:182] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces. 
+2019-12-28 17:47:08.950 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed232b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:47:09.037 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:47:09.040 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$7860a381] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:47:09.047 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:47:09.054 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:47:09.566 [main] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-12-28 17:47:09.584 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-81"] 
+2019-12-28 17:47:09.593 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-12-28 17:47:09.594 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019-12-28 17:47:09.601 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5]. 
+2019-12-28 17:47:09.601 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+2019-12-28 17:47:09.602 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+2019-12-28 17:47:10.684 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018] 
+2019-12-28 17:47:10.820 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-12-28 17:47:10.820 [main] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3505 ms 
+2019-12-28 17:47:11.601 [main] [DynamicDataSourceCreator.java:113] INFO  com.baomidou.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置 
+2019-12-28 17:47:13.677 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited 
+2019-12-28 17:47:13.736 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,appconfig} inited 
+2019-12-28 17:47:13.789 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3,applog} inited 
+2019-12-28 17:47:13.856 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4,app} inited 
+2019-12-28 17:47:13.857 [main] [DynamicRoutingDataSource.java:203] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 4 个数据源 
+2019-12-28 17:47:13.857 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 appconfig 成功 
+2019-12-28 17:47:13.857 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 app 成功 
+2019-12-28 17:47:13.858 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功 
+2019-12-28 17:47:13.858 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 applog 成功 
+2019-12-28 17:47:13.858 [main] [DynamicRoutingDataSource.java:212] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 appconfig 
+2019-12-28 17:47:14.189 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ClassificationModel. 
+2019-12-28 17:47:14.270 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ConfigItemModel. 
+2019-12-28 17:47:14.308 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.Enumparameters. 
+2019-12-28 17:47:14.339 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ParametersConfig. 
+2019-12-28 17:47:14.373 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.SqlConfigModel. 
+2019-12-28 17:47:15.033 [main] [PropertySourcedRequestMappingHandlerMapping.java:69] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] 
+2019-12-28 17:47:15.232 [main] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-12-28 17:47:15.916 [main] [DocumentationPluginsBootstrapper.java:147] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed 
+2019-12-28 17:47:15.933 [main] [DocumentationPluginsBootstrapper.java:150] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+2019-12-28 17:47:16.007 [main] [ApiListingReferenceScanner.java:41] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references 
+2019-12-28 17:47:16.199 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteConfigItemUsingPOST_1 
+2019-12-28 17:47:16.202 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getConfigItemDetailUsingGET_1 
+2019-12-28 17:47:16.210 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertConfigItemUsingPOST_1 
+2019-12-28 17:47:16.212 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateConfigItemUsingPOST_1 
+2019-12-28 17:47:16.231 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-81"] 
+2019-12-28 17:47:16.262 [main] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '' 
+2019-12-28 17:47:16.266 [main] [StartupInfoLogger.java:59] INFO  com.tjhnode.DataserviceApplication - Started DataserviceApplication in 9.45 seconds (JVM running for 13.465) 
+2019-12-28 17:47:23.824 [http-nio-81-exec-1] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-12-28 17:47:23.824 [http-nio-81-exec-1] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-12-28 17:47:23.833 [http-nio-81-exec-1] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms 
+2019-12-28 17:51:40.236 [Thread-10] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-12-28 17:51:40.243 [Thread-10] [DynamicRoutingDataSource.java:182] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - closing dynamicDatasource  ing.... 
+2019-12-28 17:51:40.255 [Thread-10] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed 
+2019-12-28 17:51:40.264 [Thread-10] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed 
+2019-12-28 17:51:40.269 [Thread-10] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2019-12-28 17:51:40.276 [Thread-10] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed 
+2019-12-28 17:52:12.018 [main] [StartupInfoLogger.java:50] INFO  com.tjhnode.DataserviceApplication - Starting DataserviceApplication on tjh with PID 6024 (D:\JavaProject\dataservice\target\classes started by My in D:\JavaProject\dataservice) 
+2019-12-28 17:52:12.026 [main] [SpringApplication.java:675] INFO  com.tjhnode.DataserviceApplication - No active profile set, falling back to default profiles: default 
+2019-12-28 17:52:13.080 [main] [RepositoryConfigurationDelegate.java:244] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-12-28 17:52:13.084 [main] [RepositoryConfigurationDelegate.java:126] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-12-28 17:52:13.121 [main] [RepositoryConfigurationDelegate.java:182] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces. 
+2019-12-28 17:52:13.480 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19fb2fc8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:52:13.537 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:52:13.540 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$8389a099] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:52:13.546 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:52:13.551 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:52:13.917 [main] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-12-28 17:52:13.930 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-81"] 
+2019-12-28 17:52:13.938 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-12-28 17:52:13.939 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019-12-28 17:52:13.946 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5]. 
+2019-12-28 17:52:13.946 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+2019-12-28 17:52:13.946 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+2019-12-28 17:52:15.022 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018] 
+2019-12-28 17:52:15.153 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-12-28 17:52:15.153 [main] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3036 ms 
+2019-12-28 17:52:16.307 [main] [DynamicDataSourceCreator.java:113] INFO  com.baomidou.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置 
+2019-12-28 17:52:17.873 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited 
+2019-12-28 17:52:17.931 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,appconfig} inited 
+2019-12-28 17:52:17.983 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3,applog} inited 
+2019-12-28 17:52:18.036 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4,app} inited 
+2019-12-28 17:52:18.036 [main] [DynamicRoutingDataSource.java:203] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 4 个数据源 
+2019-12-28 17:52:18.037 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 appconfig 成功 
+2019-12-28 17:52:18.037 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 app 成功 
+2019-12-28 17:52:18.037 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功 
+2019-12-28 17:52:18.037 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 applog 成功 
+2019-12-28 17:52:18.037 [main] [DynamicRoutingDataSource.java:212] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 appconfig 
+2019-12-28 17:52:18.322 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ClassificationModel. 
+2019-12-28 17:52:18.386 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ConfigItemModel. 
+2019-12-28 17:52:18.422 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.Enumparameters. 
+2019-12-28 17:52:18.453 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ParametersConfig. 
+2019-12-28 17:52:18.490 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.SqlConfigModel. 
+2019-12-28 17:52:19.105 [main] [PropertySourcedRequestMappingHandlerMapping.java:69] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] 
+2019-12-28 17:52:19.277 [main] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-12-28 17:52:19.941 [main] [DocumentationPluginsBootstrapper.java:147] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed 
+2019-12-28 17:52:19.955 [main] [DocumentationPluginsBootstrapper.java:150] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+2019-12-28 17:52:19.988 [main] [ApiListingReferenceScanner.java:41] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references 
+2019-12-28 17:52:20.172 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteConfigItemUsingPOST_1 
+2019-12-28 17:52:20.174 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getConfigItemDetailUsingGET_1 
+2019-12-28 17:52:20.184 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertConfigItemUsingPOST_1 
+2019-12-28 17:52:20.188 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateConfigItemUsingPOST_1 
+2019-12-28 17:52:20.212 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-81"] 
+2019-12-28 17:52:20.240 [main] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '' 
+2019-12-28 17:52:20.243 [main] [StartupInfoLogger.java:59] INFO  com.tjhnode.DataserviceApplication - Started DataserviceApplication in 8.649 seconds (JVM running for 12.613) 
+2019-12-28 17:52:25.382 [http-nio-81-exec-1] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-12-28 17:52:25.383 [http-nio-81-exec-1] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-12-28 17:52:25.393 [http-nio-81-exec-1] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms 
+2019-12-28 17:57:57.839 [Thread-14] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-12-28 17:57:57.841 [Thread-14] [DynamicRoutingDataSource.java:182] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - closing dynamicDatasource  ing.... 
+2019-12-28 17:57:57.861 [Thread-14] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed 
+2019-12-28 17:57:57.866 [Thread-14] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed 
+2019-12-28 17:57:57.870 [Thread-14] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2019-12-28 17:57:57.875 [Thread-14] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed 
+2019-12-28 17:58:45.118 [main] [StartupInfoLogger.java:50] INFO  com.tjhnode.DataserviceApplication - Starting DataserviceApplication on tjh with PID 5976 (D:\JavaProject\dataservice\target\classes started by My in D:\JavaProject\dataservice) 
+2019-12-28 17:58:45.126 [main] [SpringApplication.java:675] INFO  com.tjhnode.DataserviceApplication - No active profile set, falling back to default profiles: default 
+2019-12-28 17:58:46.098 [main] [RepositoryConfigurationDelegate.java:244] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-12-28 17:58:46.102 [main] [RepositoryConfigurationDelegate.java:126] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-12-28 17:58:46.139 [main] [RepositoryConfigurationDelegate.java:182] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces. 
+2019-12-28 17:58:46.468 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f1de9ae2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:58:46.520 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:58:46.522 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$5b6d0bb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:58:46.528 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:58:46.534 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 17:58:46.897 [main] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-12-28 17:58:46.915 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-81"] 
+2019-12-28 17:58:46.925 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-12-28 17:58:46.926 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019-12-28 17:58:46.933 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5]. 
+2019-12-28 17:58:46.933 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+2019-12-28 17:58:46.934 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+2019-12-28 17:58:48.013 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018] 
+2019-12-28 17:58:48.147 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-12-28 17:58:48.148 [main] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2942 ms 
+2019-12-28 17:59:49.379 [main] [DynamicDataSourceCreator.java:113] INFO  com.baomidou.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置 
+2019-12-28 17:59:51.008 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited 
+2019-12-28 17:59:51.072 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,appconfig} inited 
+2019-12-28 17:59:51.124 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3,applog} inited 
+2019-12-28 17:59:51.176 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4,app} inited 
+2019-12-28 17:59:51.177 [main] [DynamicRoutingDataSource.java:203] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 4 个数据源 
+2019-12-28 17:59:51.177 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 appconfig 成功 
+2019-12-28 17:59:51.177 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 app 成功 
+2019-12-28 17:59:51.178 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功 
+2019-12-28 17:59:51.178 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 applog 成功 
+2019-12-28 17:59:51.178 [main] [DynamicRoutingDataSource.java:212] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 appconfig 
+2019-12-28 17:59:51.602 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ClassificationModel. 
+2019-12-28 17:59:51.656 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ConfigItemModel. 
+2019-12-28 17:59:51.711 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.Enumparameters. 
+2019-12-28 17:59:51.790 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ParametersConfig. 
+2019-12-28 17:59:51.837 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.SqlConfigModel. 
+2019-12-28 17:59:52.524 [main] [PropertySourcedRequestMappingHandlerMapping.java:69] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] 
+2019-12-28 17:59:52.804 [main] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-12-28 17:59:53.570 [main] [DocumentationPluginsBootstrapper.java:147] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed 
+2019-12-28 17:59:53.586 [main] [DocumentationPluginsBootstrapper.java:150] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+2019-12-28 17:59:53.619 [main] [ApiListingReferenceScanner.java:41] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references 
+2019-12-28 17:59:53.859 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteConfigItemUsingPOST_1 
+2019-12-28 17:59:53.864 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getConfigItemDetailUsingGET_1 
+2019-12-28 17:59:53.876 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertConfigItemUsingPOST_1 
+2019-12-28 17:59:53.880 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateConfigItemUsingPOST_1 
+2019-12-28 17:59:53.906 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-81"] 
+2019-12-28 17:59:53.931 [main] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '' 
+2019-12-28 17:59:53.935 [main] [StartupInfoLogger.java:59] INFO  com.tjhnode.DataserviceApplication - Started DataserviceApplication in 69.191 seconds (JVM running for 79.977) 
+2019-12-28 18:14:51.861 [Thread-11] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-12-28 18:14:51.863 [Thread-11] [DynamicRoutingDataSource.java:182] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - closing dynamicDatasource  ing.... 
+2019-12-28 18:14:51.872 [Thread-11] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed 
+2019-12-28 18:14:51.877 [Thread-11] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed 
+2019-12-28 18:14:51.883 [Thread-11] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2019-12-28 18:14:51.892 [Thread-11] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed 
+2019-12-28 18:14:59.998 [main] [StartupInfoLogger.java:50] INFO  com.tjhnode.DataserviceApplication - Starting DataserviceApplication on tjh with PID 240 (D:\JavaProject\dataservice\target\classes started by My in D:\JavaProject\dataservice) 
+2019-12-28 18:15:00.010 [main] [SpringApplication.java:675] INFO  com.tjhnode.DataserviceApplication - No active profile set, falling back to default profiles: default 
+2019-12-28 18:15:01.018 [main] [RepositoryConfigurationDelegate.java:244] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-12-28 18:15:01.023 [main] [RepositoryConfigurationDelegate.java:126] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-12-28 18:15:01.065 [main] [RepositoryConfigurationDelegate.java:182] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces. 
+2019-12-28 18:15:01.413 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ab88295c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 18:15:01.465 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 18:15:01.467 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$15169a2d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 18:15:01.473 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 18:15:01.478 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 18:15:01.839 [main] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-12-28 18:15:01.853 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-81"] 
+2019-12-28 18:15:01.861 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-12-28 18:15:01.862 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019-12-28 18:15:01.869 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5]. 
+2019-12-28 18:15:01.869 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+2019-12-28 18:15:01.870 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+2019-12-28 18:15:02.926 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018] 
+2019-12-28 18:15:03.061 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-12-28 18:15:03.062 [main] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2981 ms 
+2019-12-28 18:15:04.857 [main] [DynamicDataSourceCreator.java:113] INFO  com.baomidou.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置 
+2019-12-28 18:15:06.433 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited 
+2019-12-28 18:15:06.486 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,appconfig} inited 
+2019-12-28 18:15:06.534 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3,applog} inited 
+2019-12-28 18:15:06.583 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4,app} inited 
+2019-12-28 18:15:06.584 [main] [DynamicRoutingDataSource.java:203] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 4 个数据源 
+2019-12-28 18:15:06.584 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 appconfig 成功 
+2019-12-28 18:15:06.584 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 app 成功 
+2019-12-28 18:15:06.585 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功 
+2019-12-28 18:15:06.585 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 applog 成功 
+2019-12-28 18:15:06.585 [main] [DynamicRoutingDataSource.java:212] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 appconfig 
+2019-12-28 18:15:06.868 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ClassificationModel. 
+2019-12-28 18:15:06.912 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ConfigItemModel. 
+2019-12-28 18:15:06.976 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.Enumparameters. 
+2019-12-28 18:15:07.008 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ParametersConfig. 
+2019-12-28 18:15:07.038 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.SqlConfigModel. 
+2019-12-28 18:15:07.526 [main] [PropertySourcedRequestMappingHandlerMapping.java:69] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] 
+2019-12-28 18:15:07.689 [main] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-12-28 18:15:08.329 [main] [DocumentationPluginsBootstrapper.java:147] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed 
+2019-12-28 18:15:08.345 [main] [DocumentationPluginsBootstrapper.java:150] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+2019-12-28 18:15:08.379 [main] [ApiListingReferenceScanner.java:41] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references 
+2019-12-28 18:15:08.565 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteConfigItemUsingPOST_1 
+2019-12-28 18:15:08.567 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getConfigItemDetailUsingGET_1 
+2019-12-28 18:15:08.575 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertConfigItemUsingPOST_1 
+2019-12-28 18:15:08.578 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateConfigItemUsingPOST_1 
+2019-12-28 18:15:08.595 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-81"] 
+2019-12-28 18:15:08.619 [main] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '' 
+2019-12-28 18:15:08.622 [main] [StartupInfoLogger.java:59] INFO  com.tjhnode.DataserviceApplication - Started DataserviceApplication in 8.99 seconds (JVM running for 14.786) 
+2019-12-28 18:15:15.727 [http-nio-81-exec-1] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-12-28 18:15:15.727 [http-nio-81-exec-1] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-12-28 18:15:15.735 [http-nio-81-exec-1] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms 
+2019-12-28 19:29:37.531 [Thread-13] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-12-28 19:29:37.533 [Thread-13] [DynamicRoutingDataSource.java:182] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - closing dynamicDatasource  ing.... 
+2019-12-28 19:29:37.583 [Thread-13] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed 
+2019-12-28 19:29:37.591 [Thread-13] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed 
+2019-12-28 19:29:37.598 [Thread-13] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2019-12-28 19:29:37.609 [Thread-13] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed 
+2019-12-28 21:18:28.685 [main] [StartupInfoLogger.java:50] INFO  com.tjhnode.DataserviceApplication - Starting DataserviceApplication on tjh with PID 2364 (D:\JavaProject\dataservice\target\classes started by My in D:\JavaProject\dataservice) 
+2019-12-28 21:18:28.731 [main] [SpringApplication.java:675] INFO  com.tjhnode.DataserviceApplication - No active profile set, falling back to default profiles: default 
+2019-12-28 21:18:30.756 [main] [RepositoryConfigurationDelegate.java:244] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode! 
+2019-12-28 21:18:30.761 [main] [RepositoryConfigurationDelegate.java:126] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode. 
+2019-12-28 21:18:30.807 [main] [RepositoryConfigurationDelegate.java:182] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces. 
+2019-12-28 21:18:31.276 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49b20b4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 21:18:31.362 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 21:18:31.365 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$b3407c1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 21:18:31.372 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 21:18:31.378 [main] [PostProcessorRegistrationDelegate.java:330] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2019-12-28 21:18:32.015 [main] [TomcatWebServer.java:90] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 81 (http) 
+2019-12-28 21:18:32.036 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-81"] 
+2019-12-28 21:18:32.059 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat] 
+2019-12-28 21:18:32.060 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16] 
+2019-12-28 21:18:32.067 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5]. 
+2019-12-28 21:18:32.068 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true]. 
+2019-12-28 21:18:32.068 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true] 
+2019-12-28 21:18:33.162 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2q  20 Nov 2018] 
+2019-12-28 21:18:33.385 [main] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext 
+2019-12-28 21:18:33.385 [main] [ServletWebServerApplicationContext.java:296] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4583 ms 
+2019-12-28 21:18:34.453 [main] [DynamicDataSourceCreator.java:113] INFO  com.baomidou.dynamic.datasource.DynamicDataSourceCreator - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置 
+2019-12-28 21:18:36.177 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1,master} inited 
+2019-12-28 21:18:36.239 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2,appconfig} inited 
+2019-12-28 21:18:36.296 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3,applog} inited 
+2019-12-28 21:18:36.367 [main] [DruidDataSource.java:930] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4,app} inited 
+2019-12-28 21:18:36.368 [main] [DynamicRoutingDataSource.java:203] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 初始共加载 4 个数据源 
+2019-12-28 21:18:36.368 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 appconfig 成功 
+2019-12-28 21:18:36.368 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 app 成功 
+2019-12-28 21:18:36.370 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 master 成功 
+2019-12-28 21:18:36.370 [main] [DynamicRoutingDataSource.java:142] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 动态数据源-加载 applog 成功 
+2019-12-28 21:18:36.370 [main] [DynamicRoutingDataSource.java:212] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - 当前的默认数据源是单数据源，数据源名为 appconfig 
+2019-12-28 21:18:36.788 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ClassificationModel. 
+2019-12-28 21:18:36.833 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ConfigItemModel. 
+2019-12-28 21:18:36.898 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.Enumparameters. 
+2019-12-28 21:18:37.004 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.ParametersConfig. 
+2019-12-28 21:18:37.041 [main] [TableInfoHelper.java:250] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper - Warn: Could not find @TableId in Class: com.tjhnode.dataservice.model.entities.SqlConfigModel. 
+2019-12-28 21:18:37.993 [main] [PropertySourcedRequestMappingHandlerMapping.java:69] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] 
+2019-12-28 21:18:38.203 [main] [ExecutorConfigurationSupport.java:171] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor' 
+2019-12-28 21:18:39.616 [main] [DocumentationPluginsBootstrapper.java:147] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed 
+2019-12-28 21:18:39.668 [main] [DocumentationPluginsBootstrapper.java:150] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s) 
+2019-12-28 21:18:39.747 [main] [ApiListingReferenceScanner.java:41] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references 
+2019-12-28 21:18:40.054 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: deleteConfigItemUsingPOST_1 
+2019-12-28 21:18:40.057 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: getConfigItemDetailUsingGET_1 
+2019-12-28 21:18:40.065 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: insertConfigItemUsingPOST_1 
+2019-12-28 21:18:40.068 [main] [CachingOperationNameGenerator.java:40] INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateConfigItemUsingPOST_1 
+2019-12-28 21:18:40.099 [main] [DirectJDKLog.java:173] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-81"] 
+2019-12-28 21:18:40.143 [main] [TomcatWebServer.java:204] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 81 (http) with context path '' 
+2019-12-28 21:18:40.147 [main] [StartupInfoLogger.java:59] INFO  com.tjhnode.DataserviceApplication - Started DataserviceApplication in 12.35 seconds (JVM running for 17.915) 
+2019-12-28 21:18:40.717 [http-nio-81-exec-1] [DirectJDKLog.java:173] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2019-12-28 21:18:40.718 [http-nio-81-exec-1] [FrameworkServlet.java:524] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2019-12-28 21:18:40.726 [http-nio-81-exec-1] [FrameworkServlet.java:546] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms 
+2019-12-28 21:25:48.619 [http-nio-81-exec-6] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported] 
+2019-12-28 21:26:19.442 [http-nio-81-exec-4] [AbstractHandlerExceptionResolver.java:197] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported] 
+2019-12-28 22:12:04.887 [Thread-22] [ExecutorConfigurationSupport.java:208] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor' 
+2019-12-28 22:12:04.889 [Thread-22] [DynamicRoutingDataSource.java:182] INFO  com.baomidou.dynamic.datasource.DynamicRoutingDataSource - closing dynamicDatasource  ing.... 
+2019-12-28 22:12:04.912 [Thread-22] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed 
+2019-12-28 22:12:04.919 [Thread-22] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-4} closed 
+2019-12-28 22:12:04.926 [Thread-22] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed 
+2019-12-28 22:12:04.934 [Thread-22] [DruidDataSource.java:1825] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} closed 

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tjhnode.dataservice.mapper.SysPermissionMapper">
+
+    <resultMap id="BaseResultMap" type="com.tjhnode.dataservice.model.entities.SysPermission">
+        <id column="id" property="id"></id>
+        <result column="parent_id" property="parentId"></result>
+        <result column="name" property="name"></result>
+        <result column="url" property="url"></result>
+        <result column="component" property="component"></result>
+        <result column="component_name" property="componentName"></result>
+        <result column="redirect" property="redirect"></result>
+        <result column="menu_type" property="menuType"></result>
+        <result column="perms" property="perms"></result>
+        <result column="perms_type" property="permsType"></result>
+        <result column="sort_no" property="sortNo"></result>
+        <result column="always_show" property="alwaysShow"></result>
+        <result column="icon" property="icon"></result>
+        <result column="is_route" property="isRoute"></result>
+        <result column="is_leaf" property="isLeaf"></result>
+        <result column="description" property="description"></result>
+        <result column="create_by" property="createBy"></result>
+        <result column="create_time" property="createTime"></result>
+        <result column="update_by" property="updateBy"></result>
+        <result column="update_time" property="updateTime"></result>
+        <result column="del_flag" property="delFlag"></result>
+    </resultMap>
+    <resultMap id="Tree" type="com.tjhnode.dataservice.model.vo.MenuCatalog">
+        <id column="id" property="id"></id>
+        <result column="parent_id" property="parentId"></result>
+        <result column="name" property="name"></result>
+        <result column="menu_type" property="menuType"></result>
+        <result column="component" property="component"></result>
+        <result column="sort_no" property="sortNo"></result>
+        <result column="is_leaf" property="isLeaf"></result>
+        <result column="icon" property="icon"></result>
+    </resultMap>
+    <!--根据用户获取目录-->
+    <select id="selectMenuByUserId" resultMap="Tree">
+        select p.id,p.name,p.parent_id,p.component,p.sort_no,p.is_leaf,p.menu_type,p.icon from sys_permission p
+        inner join sys_role_permission rp on p.id=rp.permission_id
+        inner join sys_user_role ur on rp.role_id=ur.role_id
+        inner join sys_user u on ur.user_id=u.id
+    <where>
+        <if test="_parameter!=null">u.id=#{userid}</if>
+    </where>
+    </select>
+</mapper>

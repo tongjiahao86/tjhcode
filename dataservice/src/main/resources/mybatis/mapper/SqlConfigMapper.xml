@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tjhnode.dataservice.mapper.SqlConfigMapper">
+    <select id="getSqlConfig" resultType="com.tjhnode.dataservice.model.entities.SqlConfigModel">
+        select KeyId,DBName,ReturnType,SqlValue,SplitChar,ReturnColumn,ObjectName,OrderColumn,ObjectType from of_sqlconfig where OFID=#{ofid}
+    </select>
+
+    <insert id="insertSqlConfig">
+        insert into of_sqlconfig(KeyId,DBName,ReturnType,SqlValue,SplitChar,ReturnColumn,OFID,ObjectName,CreateDate,OrderColumn,ObjectType)
+            values(#{KeyId},#{DBName},#{ReturnType},#{SqlValue},#{SplitChar},#{ReturnColumn},#{OFID},#{ObjectName},#{CreateDate},#{OrderColumn},#{ObjectType});
+    </insert>
+
+    <update id="updateSqlConfig">
+        update of_sqlconfig set DBName=#{DBName},ReturnType=#{ReturnType},SqlValue=#{SqlValue},SplitChar=#{SplitChar},ReturnColumn=#{ReturnColumn},OFID=#{OFID},
+        ObjectName=#{ObjectName},ModifyDate=#{ModifyDate},OrderColumn=#{OrderColumn},ObjectType=#{ObjectType}  where KeyId=#{KeyId}
+    </update>
+
+    <delete id="deleteSqlConfig">
+        delete from of_sqlconfig where KeyId=#{KeyId}
+    </delete>
+
+</mapper>

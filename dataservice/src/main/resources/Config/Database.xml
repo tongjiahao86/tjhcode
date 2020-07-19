@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connectionStrings>
+    <database name="lzproduct_config" cn_name="配置库" connectionString="server=192.168.1.107;dbname=lzproduct_config;userid=lzproduct_config;pwd=sasa"></database>
+    <database name="lzproduct_log" cn_name="日志库" connectionString="server=192.168.1.107;dbname=lzproduct_log;userid=lzproduct_config;pwd=sasa"></database>
+</connectionStrings>
